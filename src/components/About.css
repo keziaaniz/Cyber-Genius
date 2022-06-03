@@ -1,0 +1,48 @@
+.About {
+    background: url('../images/slade-lapusnak-z-3lZfFdsj0-unsplash 1.png') no-repeat;
+    background-size: cover;  
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.About-container {
+    background: linear-gradient(270deg, rgba(29, 37, 39, 0.6) 0%, rgba(29, 37, 39, 0.6) 24.79%, rgba(29, 37, 39, 0.534) 54.48%, rgba(29, 37, 39, 0.006) 78.67%, rgba(29, 37, 39, 0) 100%);
+    backdrop-filter: blur(9px);
+    width: 55%;
+    height: 100%;
+    left: 593px;
+}
+
+.About-text {
+    margin: 15px 0 25px 75px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    width: 80%;
+}
+
+.About-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 15px 0 10px 75px;
+}
+
+.About-text p {
+    height: 201px;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: right;
+    color: #FFFFFF;
+}

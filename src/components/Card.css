@@ -1,0 +1,59 @@
+
+.Card-Item {
+    width: 250px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.Card-Item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1D2527;
+    margin-left: 55px;
+}
+
+.List-container {
+    list-style: none;
+    height: 205px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.List-Item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 27px;
+    margin-bottom: 24px;
+    
+}
+
+.List-Item p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1D2527;
+    margin-left: 29px;
+}
+
+.List-Item img {
+    width: 16px;
+    height: 24px;
+    color: #1D2527;
+}
+
+ButtonCard:hover {
+    background: #1D2527;
+}

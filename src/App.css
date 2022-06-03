@@ -1,38 +1,84 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kameron&family=Passions+Conflict&display=swap');
+
+.header {
+  background: url('./images/luca-david-HjXbVnnITvE-unsplash 1.png') no-repeat ;
+  background-size: cover; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-title {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-title h1 {
+  margin: 15px 0 125px 55px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 204px;
+  line-height: 150%;
+  letter-spacing: 0.05rem;
+  color: #EBEBEB;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  width: 397.6px;
+  height: 153.29px;
+  align-self: center;
+  background: #333333;
+  filter: blur(55px);
+  transform: rotate(-3.16deg);
+  position: absolute;
+  margin: 425px 5px 425px 475px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.elipse {
+  width: 459.5px;
+  height: 103.64px;
+  left: 1198.87px;
+  top: 376.17px;
+  background: #C4C4C4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.NavBar {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.shape-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 62px;
+}
+
+.shape-divider .shape-fill {
+  fill: #E5E5E5;
+}
+
+.Hero {
+  height: 140vh;
+  width: 100%;
+  background: #E5E5E5;
+}
+
+.About {
+  height: 140vh;
+  width: 100%;
 }
